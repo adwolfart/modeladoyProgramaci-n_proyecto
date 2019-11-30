@@ -1,43 +1,49 @@
-El programa se ejecuta una vez creado la base de datos y configurado las credenciales
-en el archivo Main.py
+####El programa se ejecuta una vez creado la base de datos y configurado las credenciales en el archivo Main.py
 
-Se ejecuta con el comando "python3 Main.py"
+####Se ejecuta con el comando ´python3 Main.py´
 
-Se muestra un menu con la opcion de ingresar, registrar o salir (no se puede ingresar
-si no se ha registrado).
+~~Se muestra un menu con la opcion de ingresar, registrar o salir (no se puede ingresar
+si no se ha registrado).~~
 
-Opcion registrar:
+==Opcion registrar==
 Solicita un nombre de usuario y un perfil, si existe el usuario no se registrara
 
-Opcion Ingresar:
+==Opcion Ingresar==
 Solicitara un nombre de usuario. Si es el correcto le dara acceso al menu dependiendo del perfil
 
-Perfil Administrador:
+==Perfil Administrador==
 El perfil Administrador cuenta con 5 opciones: crear nueva parada, crear nueva ruta,
 eliminar ruta, eliminar parada.
 
-crear nueva parada: se le solicita un nombre de la parada si no existe la crea
+==Crear nueva parada=
+se le solicita un nombre de la parada si no existe la crea
 
-crear nueva ruta: muestra todas las paradas que hay, solicita el numero de paradas
+==Crear nueva ruta==
+muestra todas las paradas que hay, solicita el numero de paradas
 que tendra la ruta. Una vez dado se le solicitara el nombre de las paradas, para despues
 solicitar el nombre de la ruta y por ultimo el numero de pasajeros
 
-eliminar ruta:muestra las rutas, y solicita el nombre de la ruta. si hay algun boleto vendido
+==eliminar ruta==
+muestra las rutas, y solicita el nombre de la ruta. si hay algun boleto vendido
 no borra la ruta, en otro caso la borra sin problemas
 
-eliminar parada: solicita nombre de la terminal, si hay alguna ruta con esa terminal
+==eliminar parada==
+solicita nombre de la terminal, si hay alguna ruta con esa terminal
 no borra la terminal, en otro caso la borra.
 
-Perfil Vendedor:
+==Perfil Vendedor==
 El perfil Vendedor cuenta con 2 opciones: hacer venta, cancelar venta.
 
-hacer venta: Solicita si va ser por terminales o por ruta.
+==Hacer venta==
+Solicita si va ser por terminales o por ruta.
 
-Terminales: solicita el numero de pasajeros, la primera y segunda parada. Despues
+==Terminales==
+Solicita el numero de pasajeros, la primera y segunda parada. Despues
 muestra las rutas posibles y solcita el indice de la ruta. Una vez dado el indice
 genera los boletos de los usuarios.
 
-Rutas: solicita el numero de pasajeros, y muestra las rutas con suficientes boletos.
+==Rutas== solicita el numero de pasajeros, y muestra las rutas con suficientes boletos.
 Solicita el id de una ruta y despues genera los boletos.
 
-Cancelar venta: solicita un numero de boleto, si es correcto elimina el boleto.
+==Cancelar venta==
+Solicita un numero de boleto, si es correcto elimina el boleto.
